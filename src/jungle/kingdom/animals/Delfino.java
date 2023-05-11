@@ -24,4 +24,9 @@ public class Delfino extends Kingdom implements Nuota {
     public void nuota() {
         System.out.println("Sto nuotando!!!");
     }
+    
+    @Override
+    public String toString() {
+        return "Delfino";
+    }
 }

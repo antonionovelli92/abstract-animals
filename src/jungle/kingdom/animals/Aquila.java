@@ -24,4 +24,9 @@ public class Aquila extends Kingdom implements Vola {
     public void vola() {
         System.out.println("Sto volando!!!");
     }
+    
+    @Override
+    public String toString() {
+        return "Aquila";
+    }
 }
