@@ -6,7 +6,7 @@ public class Passerotto extends Kingdom {
 
 	  @Override
 	    public void dormi() {
-	        System.out.println("Zzz");
+	        System.out.println("ZzzPasserottozzZZ");
 	    }
 
 	    @Override
