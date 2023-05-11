@@ -1,26 +1,27 @@
 package jungle.kingdom.animals;
 
 import jungle.kingdom.Kingdom;
+import jungle.kingdom.Vola;
 
-public class Aquila extends Kingdom {
-	
-	    @Override
-	    public void dormi() {
-	        System.out.println("ZzzAquilazzZ");
-	    }
+public class Aquila extends Kingdom implements Vola {
 
-	    @Override
-	    public void verso() {
-	        System.out.println("Fischio");
-	    }
+    @Override
+    public void dormi() {
+        System.out.println("ZzzAquilaazzZZ");
+    }
 
-	    @Override
-	    public void mangia() {
-	        System.out.println("Carne");
-	    }
-	    @Override
-	    public String toString() {
-	        return "Aquila";
-	    }
+    @Override
+    public void verso() {
+        System.out.println("Cra");
+    }
 
+    @Override
+    public void mangia() {
+        System.out.println("Carne");
+    }
+
+    @Override
+    public void vola() {
+        System.out.println("Sto volando!!!");
+    }
 }
