@@ -1,6 +1,6 @@
-package java.jungle.kingdom.animals;
+package jungle.kingdom.animals;
 
-import java.jungle.kingdom.Kingdom;
+import jungle.kingdom.Kingdom;
 
 public class Aquila extends Kingdom {
 	
@@ -18,5 +18,9 @@ public class Aquila extends Kingdom {
 	    public void mangia() {
 	        System.out.println("Carne");
 	    }
-    
+	    @Override
+	    public String toString() {
+	        return "Aquila";
+	    }
+
 }
